@@ -6,6 +6,7 @@ param(
 filter timestamp {"[$(Get-Date -Format G)]: $_"} 
 $startTime = Get-Date 
 
+#Replace
 $AccountId = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
 try {
@@ -17,6 +18,7 @@ try {
     throw $_.Exception
 }
 
+#Replace
 $resourceGroupName = "Resource_Group_name"
 $serverName = "Database_name"
 $SubscriptionId = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"

@@ -6,6 +6,7 @@ param(
 filter timestamp {"[$(Get-Date -Format G)]: $_"} 
 $startTime = Get-Date 
 
+#Replace
 $AccountId = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
 try {
@@ -28,6 +29,7 @@ $authHeader = @{
 
 $ErrorActionPreference = "stop"
 
+#Replace
 $AzureResourceGroupName = "Resource_Group_name"
 $AzureFunctionAppName = "Funtion_App_name"
 
