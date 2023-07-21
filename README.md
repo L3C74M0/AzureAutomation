@@ -48,7 +48,7 @@ Set the start time (Time the runbook script will be executed) and the recurrence
 
 * ![newSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/ef90e814-018f-4c2f-8c0e-09af460d8419)
 
-> In my case I want the resources to start at 8AM and shutdown at 6PM from Monday to Friday
+> In my case I want the resources to start at 6AM and shutdown at 8PM from Monday to Friday
 
 Then go to the runbook you created and select Link to schedule
 
@@ -56,9 +56,11 @@ Then go to the runbook you created and select Link to schedule
 
 Now select the schedule you just created and in parameters and run settings write: stop or start as appropriate.
 
-![FinishedSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4a6f654d-7be0-4529-91be-e27c96443b13)
+* ![FinishedSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4a6f654d-7be0-4529-91be-e27c96443b13)
 
 Finally verify that the schedules are assigned to your runbook.
+
+* ![AddeSchedules](https://github.com/L3C74M0/AzureAutomation/assets/47828446/d7980176-b16f-4312-b177-8e09bb11f53f)
 
 -----------------------
 
