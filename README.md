@@ -28,6 +28,11 @@ Finally, add the Identity to the resource or resources that you want to automate
 
 Copy the code that I share and replace the variables under the `#replace` comments with the data from your Azure account.
 
+> Currently I only have the powershell code to turn the following resources on and off:
+> * Azure Database For My SQL Single Server
+> * Azure Container Instances
+> * Azure Function App
+
 * ![replace](https://github.com/L3C74M0/AzureAutomation/assets/47828446/9fd35f25-1f20-4262-8c00-b90a707102ac)
 
 Test that the code works using the Test pane function.
