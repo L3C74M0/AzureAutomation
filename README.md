@@ -26,7 +26,7 @@ Finally, add the Identity to the resource or resources that you want to automate
 
 -----------------------
 
-Copy the code that I share and replace the variables under the `#replace` comment with the data from your Azure account.
+Copy the code that I share and replace the variables under the `#replace` comments with the data from your Azure account.
 
 * ![replace](https://github.com/L3C74M0/AzureAutomation/assets/47828446/9fd35f25-1f20-4262-8c00-b90a707102ac)
 
