@@ -8,16 +8,21 @@ Create the necessary resources:
   * Runbook Type: Powershell
   * Runtime Version: 7.2 (It is the one used in the code that I share with you)
 
------------------------
+Now create a Managed Identity resource within the resource group you want to manage
 
-Grant the necessary permissions to the role that will run the runbook.
-* In your Automation resources, go to the Identity tab then User assigned and add an identity that has permission to access the resource you want to turn on or off.
+* ![CreateResource](https://github.com/L3C74M0/AzureAutomation/assets/47828446/b85ca02b-e0a2-46a8-bd55-d9b55c8d98a5)
 
-![AutomationAccess](https://github.com/L3C74M0/AzureAutomation/assets/47828446/eb44f873-fd00-47da-adba-4a4e2615efaa)
+Then, inside the Automation Account - Identity - User Assigned resource add the Managed Identity resource that was created in the previous step
 
-![UserAssigned](https://github.com/L3C74M0/AzureAutomation/assets/47828446/5b7aa8c5-09bd-436a-80e0-1c976b9ba625)
+* ![UserAssigned](https://github.com/L3C74M0/AzureAutomation/assets/47828446/5b7aa8c5-09bd-436a-80e0-1c976b9ba625)
 
-![DBAccess](https://github.com/L3C74M0/AzureAutomation/assets/47828446/75a42315-7333-4851-a071-b7a3b280aa20)
+Now verify that the automation account is assigned the Managed Identity resource.
+
+* ![AutomationAccess](https://github.com/L3C74M0/AzureAutomation/assets/47828446/eb44f873-fd00-47da-adba-4a4e2615efaa)
+
+Finally, add the Identity to the resource or resources that you want to automate.
+
+* ![DBAccess](https://github.com/L3C74M0/AzureAutomation/assets/47828446/75a42315-7333-4851-a071-b7a3b280aa20)
 
 -----------------------
 
@@ -26,7 +31,7 @@ Copy the code that I share and replace the variables under the `#replace` commen
 * Test that the code works using the Test pane function.
 > If it doesn't work, check your account permissions, this is usually the biggest problem. The code that I share works correctly with the necessary permissions.
 
-* To find out if your resource has stopped or started, open the resource you want to stop or start in another tab of your browser and run the test, it will ask you for a parameter, enter stop or start as the case may be and the resource will not take long to execute the action.
+> To find out if your resource has stopped or started, open the resource you want to stop or start in another tab of your browser and run the test, it will ask you for a parameter, enter stop or start as the case may be and the resource will not take long to execute the action.
 
 -----------------------
 
