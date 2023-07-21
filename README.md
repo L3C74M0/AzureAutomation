@@ -61,7 +61,8 @@ Then go to the runbook you created and select Link to schedule
 
 Now select the schedule you just created and in parameters and run settings write: stop or start as appropriate.
 
-* ![FinishedSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4a6f654d-7be0-4529-91be-e27c96443b13)
+* ![FinishedSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4a6f654d-7be0-4529-91be-e27c96443b13) ![parameter](https://github.com/L3C74M0/AzureAutomation/assets/47828446/8bc98476-0be6-452c-8a5d-ff15ef71395f)
+
 
 Finally verify that the schedules are assigned to your runbook.
 
