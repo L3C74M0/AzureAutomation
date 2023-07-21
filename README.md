@@ -17,6 +17,7 @@ Grant the necessary permissions to the role that will run the runbook.
 
 ![UserAssigned](https://github.com/L3C74M0/AzureAutomation/assets/47828446/5b7aa8c5-09bd-436a-80e0-1c976b9ba625)
 
+![DBAccess](https://github.com/L3C74M0/AzureAutomation/assets/47828446/75a42315-7333-4851-a071-b7a3b280aa20)
 
 -----------------------
 
