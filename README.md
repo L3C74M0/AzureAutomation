@@ -28,7 +28,9 @@ Finally, add the Identity to the resource or resources that you want to automate
 
 Copy the code that I share and replace the variables under the `#replace` comment with the data from your Azure account.
 
-* Test that the code works using the Test pane function.
+* ![replace](https://github.com/L3C74M0/AzureAutomation/assets/47828446/9fd35f25-1f20-4262-8c00-b90a707102ac)
+
+Test that the code works using the Test pane function.
 > If it doesn't work, check your account permissions, this is usually the biggest problem. The code that I share works correctly with the necessary permissions.
 
 > To find out if your resource has stopped or started, open the resource you want to stop or start in another tab of your browser and run the test, it will ask you for a parameter, enter stop or start as the case may be and the resource will not take long to execute the action.
