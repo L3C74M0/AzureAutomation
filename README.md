@@ -42,13 +42,26 @@ Test that the code works using the Test pane function.
 
 To automate the execution of the runbooks, within the Azure Automation resource, go to the Schedules tab and create a new schedule.
 
-* Set the start time (Time the runbook script will be executed) and the recurrence.
+* ![createSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/06d22722-1834-4fb4-9e2c-66fc86d3c397)
 
-> In my case I want a resource to start every day at 8am and shutdown at 6pm. (You must create a schedule to start and a schedule to stop)
+Set the start time (Time the runbook script will be executed) and the recurrence. 
 
-Then go to the runbook you created and select link to schedule, select the schedule you just created and in parameters and run settings write: stop or start as appropriate.
+* ![newSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/ef90e814-018f-4c2f-8c0e-09af460d8419)
+
+> In my case I want the resources to start at 8AM and shutdown at 6PM from Monday to Friday
+
+Then go to the runbook you created and select Link to schedule
+
+* ![linkToSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4d926166-78b3-4f5f-8a30-7c3f6de8520b)
+
+Now select the schedule you just created and in parameters and run settings write: stop or start as appropriate.
+
+![FinishedSchedule](https://github.com/L3C74M0/AzureAutomation/assets/47828446/4a6f654d-7be0-4529-91be-e27c96443b13)
+
+Finally verify that the schedules are assigned to your runbook.
 
 -----------------------
 
 And voila, you already have automated turning on and off of resources in Azure through Azure Automation using Schedules.
- 
+
+
