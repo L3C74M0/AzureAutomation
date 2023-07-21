@@ -66,4 +66,7 @@ Finally verify that the schedules are assigned to your runbook.
 
 And voila, you already have automated turning on and off of resources in Azure through Azure Automation using Schedules.
 
+> You can verify that runbooks are running at the times you set in the runbook overview tab.
+
+![overview](https://github.com/L3C74M0/AzureAutomation/assets/47828446/ee06aef5-6a3b-4e27-84d5-d9378f7b7ad6)
 
