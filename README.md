@@ -13,6 +13,7 @@ Create the necessary resources:
 Grant the necessary permissions to the role that will run the runbook.
 * In your Automation resources, go to the Identity tab then User assigned and add an identity that has permission to access the resource you want to turn on or off.
 
+![UserAssigned](https://github.com/L3C74M0/AzureAutomation/assets/47828446/5b7aa8c5-09bd-436a-80e0-1c976b9ba625)
 -----------------------
 
 Copy the code that I share and replace the variables under the `#replace` comment with the data from your Azure account.
